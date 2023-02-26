@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Work 2</title>
+	<style>
+		h1{
+			color:darkblue;
+		}
+	</style>
+
+</head>
+<body>
+	<h1>Hello People!</h1>
+	<main>
+	  <h1>Most Popular Browsers</h1>
+	  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  	<article>
+	    <h2>Google Chrome</h2>
+	    <p>Google Chrome is a web browser.Chrome is the world's most popular web browser today!</p>
+  	</article>
+
+  	<article>
+	    <h2>Mozilla Firefox</h2>
+	    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  	</article>
+  	</main>
+  	<P>Bangladesh is an <mark>independent</mark> country</P>
+
+  	<label for="disk_c">Disk usage C:</label>
+  	<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter>
+
+  	<label for="disk_d">Disk usage D:</label>
+  	<meter id="disk_d" value="0.6">60%</meter>
+  	<nav>
+  		<a href="/html/">HTML</a>|
+  		<a href="/css/">CSS</a>|
+  		<a href="/JS">JAVASCRIPT</a>|
+	</nav>
+
+	<script>
+	document.write("Hello World!")
+	</script>
+	<noscript>Your browser does not support JavaScript!</noscript>
+
+	<object data="snippet.html" width="500" height="200"></object>
+	<ol>
+		<li>Black Coffe</li>
+		<li>Green Tea</li>
+	</ol>
+	<ol start="100">
+	  <li>Coffee</li>
+	  <li>Tea</li>
+	  <li>Milk</li>
+	</ol>
+
+	
+
+	<label for="Ice-cream"> Choose your favourite ice-cream:</label>
+		<select name="ice-cream" id="ice-cream">
+			<optgroup label="Ice-cream">
+				<option value="Mango flavour">Mango</option>
+				<option value="Orange flavour">Orange</option>
+				<option value="Vanila flavour">Vanila</option>
+			</optgroup>
+
+	<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+	  <input type="range" id="a" value="50">
+	  +<input type="number" id="b" value="25">
+	  =<output name="x" for="a b"></output>
+	</form>
+
+	<p>This is our html page.</p>
+
+	<picture>
+		<img src="images/cup.jpg" alt="cup" style="width:auto;">
+	</picture>
+<pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre>
+
+
+	<label for="file">Downloading progress:</label>
+	<progress id="file" value="50" max="100"> 50% </progress>
+
+	<p>WHO means:
+		<q> World Health Organaization.</q>
+	</p>
+
+	<p><s> Only 20 cakes left!</s></p>
+	<p>SOLD OUT </p>
+
+	<p> Message from my computer: </p>
+	<p><same>File not found.<br>Press F1 to continue</same></p>
+
+	<section>
+		<h2>Why do we use it</h2>
+		<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+	</section>
+
+	<section>
+		<h2>WWF's Symbol</h2>
+		<p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+	</section>
+
+	<p>This is some normal text.</p>
+	<p><small>This is some smaller text.</small></p>
+	<p>My father has <span style="color:blue">blue</span> sunglass.</p>
+
+	<strong>The meeting is very important right now!</strong>
+	<p>This paragraph contains <sub> subscript</sub> text.</p>
+	<p>This paragraph contains <sup>superscript</sup> text.</p>
+
+	<svg width="100" height="100">
+		<circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow"/>
+	</svg>
+
+	<table>
+	  <tr>
+	    <th>Month</th>
+	    <th>Savings</th>
+	  </tr>
+	  
+	  <tr>
+	    <td>July</td>
+	    <td>$10</td>
+	  </tr>
+	</table>
+
+	<button onclick="showContent()">Show hidden content</button>
+
+	<template>
+		<h2>Cup</h2>
+		<img src="images/cup.jpg" width="auto">
+	</template>
+
+	<script>
+		function showContent(){
+			var temp = document.getElementsByTagName("template")[0];
+			var clon = temp.content.cloneNode(true);
+			document.body.appendChild(clon);
+		}
+	</script>
+
+
+	<form action="/action_page.php">
+  		<p><label for="w3review">Review of W3Schools:</label></p>
+  		<textarea id="w3review" name="w3review" rows="4" cols="50">At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea>
+ 		 <br>
+  		<input type="submit" value="Submit">
+	</form>
+		<p>Click the "Submit" button and the form-data will be sent to a page on the server called "action_page.php".</p>
+
+						
+		<table>
+		  <thead>
+		    <tr>
+		      <th>Month</th>
+		      <th>Savings</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <td>January</td>
+		      <td>$100</td>
+		    </tr>
+		    <tr>
+		      <td>February</td>
+		      <td>$80</td>
+		    </tr>
+		  </tbody>
+		  <tfoot>
+		    <tr>
+		      <td>Sum</td>
+		      <td>$180</td>
+		    </tr>
+		  </tfoot>
+		</table>
+
+
+		<p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+
+		<p>I have a invitation <time datetime="2023-02-14 20:00">on Victory Day.</time>.</p>
+		<p> This is a <u>plain</u> text.</p>
+
+		<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+
+		<p>Contrary to popular belief, Lorem <wbr>Ipsum<wbr> is not simply random text.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
